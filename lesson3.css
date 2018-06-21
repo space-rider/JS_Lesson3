@@ -1,0 +1,125 @@
+﻿body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h2 {
+    padding: 10px 15px;
+    user-select: none;
+}
+
+.block__p {
+    font-size: 22px;
+    padding: 0;
+}
+
+p {
+    padding: 10px 15px;
+    font-size: 21px;
+}
+
+.header__title {
+    background-color: yellow;
+    text-align: left;
+    padding: 20px 20px;
+    user-select: none;
+}
+
+.first__block {
+    user-select: none; 
+}
+
+.first__block, .second__block, .third__block, .bonus__block {
+    background-color: rgba(211, 211, 211, 0.30);
+    padding: 10px 10px;
+    border: 5px solid white;
+    margin: 10px 80px;
+}
+
+
+.second__block:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.third__block:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.bonus__block:hover {
+    background-color:magenta;
+    cursor: pointer;
+}
+
+.box__title {
+    font-size: 3.5em;
+    color: white;
+    text-align: left;
+    padding: 0;
+    padding-left: 15px;
+    cursor: default;
+    user-select: none;
+}
+
+.number__box_one, .number__box_two, .number__box_three, .number__box_four {
+    font-size: 3.5em;
+    color: white;
+    text-align: center;
+    cursor: default;
+    user-select: none;
+}
+#box__group_one{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.box__one {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 10px 20px;
+    display: inline-block;
+}
+
+.box__two {
+    height: 200px;
+    width: 200px;
+    background-color: dodgerblue;
+    margin: 10px 20px;
+    display: inline-block;
+}
+
+.box__three {
+    height: 200px;
+    width: 200px;
+    background-color: darkorange;
+    margin: 10px 20px;
+    display: inline-block;
+}
+
+.box__four {
+    width: 400px;
+    height: 200px;
+    background-color: purple;
+    margin: 10px 20px;
+    display: inline-block;
+}
+
+.back {
+    width: 130px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color:black;
+    padding: 10px 15px;
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.back:hover {
+    background-color: yellowgreen;
+    color: black;
+    cursor: pointer;
+}
